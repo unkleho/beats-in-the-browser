@@ -35,15 +35,9 @@ Browsers will not allow you to start audio without user input, so the play butto
 
 The sounds are different to the actual talk as there are licensing issues. I've replaced them with a free drum kit from Decap.
 
-## Drum Pads Demo
+## Drum Pads Demo (coming soon)
 
-MPC style drum pads in the browser at [pages/drum-pads-demo.tsx](./pages/drum-pads-demo.tsx). In the talk, I connect a M-Audio Trigger Finger (really old!) to Chrome via USB.
-
-You'll likely have different device, so rename `MIDI_DEVICE_NAME` to your device name. The hook [use-web-midi](./shared/hooks/use-web-midi.ts) will console log out all available MIDI devices.
-
-You'll then need to remap the MIDI notes to the correct pad.
-
-Once again I've used a free drum kit from Decap due to licensing issues with the sounds in the talk.
+Still need to extract this from private repo.
 
 ## Performance Demo (coming soon)
 
