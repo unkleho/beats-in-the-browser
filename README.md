@@ -6,7 +6,7 @@ This is a Next.js project and includes:
 
 - Slides from the talk
 - Live code demo
-- Drum pads demo
+- Drum pads demo (coming soon)
 - Performance demo (coming soon)
 - Talk tech from the talk
 
