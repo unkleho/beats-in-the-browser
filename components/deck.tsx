@@ -35,32 +35,13 @@ const UnorderedList: React.FC<{ children: React.ReactNode }> = ({
   </SpectacleUnorderedList>
 );
 
-const fadeTransition = {
-  from: {
-    opacity: 0,
-    // transform: 'rotate(45deg)',
-  },
-  enter: {
-    opacity: 1,
-    // transform: 'rotate(0)',
-  },
-  leave: {
-    opacity: 0,
-    // transform: 'rotate(315deg)',
-  },
-};
-
 export default function Deck() {
   return (
     <SpectacleDeck
       theme={{
         colors: {
-          // primary: '#5f0fd1',
           secondary: '#FFF',
-          // secondary: '#0fa6d1',
           primary: '#FFF',
-          quaternary: 'green',
-          quinary: 'green',
           tertiary: '#050505', // Background
         },
         fonts: {
@@ -71,14 +52,11 @@ export default function Deck() {
     >
       <Slide padding={48}>
         <div className="grid min-h-full grid-cols-6 grid-rows-4">
-          {/* <div className="col-start-3 bg-grey w-5 h-5"></div> */}
-          {/* <div className="col-start-2 row-start-1 bg-grey w-5 h-5"></div> */}
           <div className="col-start-1 row-start-1 flex">
             <div className="h-5 w-5 bg-grey-lighter"></div>
             <div className="ml-[2px] h-5 w-5 bg-grey-light"></div>
             <div className="ml-[2px] h-5 w-5 bg-grey"></div>
             <div className="ml-[2px] h-5 w-5 bg-grey-dark"></div>
-            {/* <div className="ml-[2px] h-5 w-5 bg-grey"></div> */}
           </div>
 
           <span
@@ -123,7 +101,6 @@ export default function Deck() {
       </Slide>
 
       {/* Hi everyone, I'm Kaho, welcome to my talk Beats in the browser */}
-
       {/* I'll be showcasing various ways of making music with Next JS and React */}
 
       <Slide>
@@ -277,7 +254,6 @@ export default function Deck() {
           </ListItem>
 
           <Appear>
-            {/* Add Hasura and Apollo GraphQL if ready... */}
             <ListItem>
               Demo built with <strong>Next.js</strong>,{' '}
               <strong>Tailwind</strong>, <strong>Recoil</strong> and{' '}
@@ -300,7 +276,7 @@ export default function Deck() {
         {' '}
       </Slide>
 
-      {/* Open Swing It demo! */}
+      {/* Open Performance demo! */}
 
       <Slide>
         <Heading>Drum Pads Demo</Heading>

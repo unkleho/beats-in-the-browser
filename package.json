@@ -16,7 +16,8 @@
     "react-dom": "18.2.0",
     "react-syntax-highlighter": "^15.5.0",
     "reactronica": "^0.8.1-canary.0",
-    "spectacle": "^9.6.0"
+    "spectacle": "^9.6.0",
+    "webmidi": "^3.0.21"
   },
   "devDependencies": {
     "@types/node": "18.8.2",
